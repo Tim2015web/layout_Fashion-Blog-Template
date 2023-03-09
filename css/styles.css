@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logotype {
+  display: flex;
+  position: relative;
+}
+
+.logotype a {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #171717;
+}
+
+.logo-rect {
+  position: absolute;
+  top: 22px;
+}
+
+.menu {}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu a {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #171717;
+
+  margin: 0 15px;
+}
+
+.menu .link-active {
+  color: #C9A96E;
+}
+
+.banner {
+  display: block;
+  background-image: url(../img/your_images_here.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gray;
+  position: relative;
+
+  padding-top: 28px;
+  max-height: 700px;
+  width: 100%;
+}
+
+.banner>a {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PTSans-Regular.ttf);
+}
